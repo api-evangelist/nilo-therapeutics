@@ -1,7 +1,30 @@
 aid: nilo-therapeutics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nilo-therapeutics.png
 name: Nilo Therapeutics
-description: Nilo Therapeutics is a company surfaced as a portfolio company of dcvc and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Nilo Therapeutics is a New York-based, preclinical-stage biotechnology company
+  pioneering a differentiated approach to immunomodulation by targeting the neural
+  circuits that regulate systemic inflammation. Building on seminal discoveries from
+  the laboratories of Charles Zuker (Columbia University / HHMI), Ruslan Medzhitov
+  (Yale), and Stephen Liberles (Harvard) that identified vagal neurons regulating
+  systemic immune activation, and led by CEO Kim Seth, the company harnesses the
+  body-brain axis to restore immune homeostasis centrally, moving beyond conventional
+  immunosuppression to treat autoimmune and inflammatory disease. Nilo launched in
+  2025 with a $101M Series A co-led by DCVC Bio, Lux Capital, and The Column Group,
+  with participation from Alexandria Venture Investments and the Gates Foundation. As
+  a therapeutics company it publishes no public developer API, SDK, or developer
+  portal surface.
 url: https://raw.githubusercontent.com/api-evangelist/nilo-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +34,29 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Biotechnology
+- Therapeutics
+- Immunology
+- Neuroscience
+- Drug Discovery
+- Pharmaceuticals
+- Healthcare
+common:
+- type: DomainSecurity
+  url: security/nilo-therapeutics-domain-security.yml
+- type: Website
+  url: https://www.nilotx.com/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/nilo-therapeutics
 apis: []
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
